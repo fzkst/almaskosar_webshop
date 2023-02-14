@@ -13,7 +13,7 @@ class StoreIphoneRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,12 @@ class StoreIphoneRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'model' => 'required | string | max:50',
+            'color' => 'required | string | max:30',
+            'storage' => 'required | integer',
+            'price' => 'required | integer',
+            'stock' => 'required | integer',
+            'image' => 'required | image'
         ];
     }
 }

@@ -18,6 +18,9 @@ return new class extends Migration
             $table->string('model', 50);
             $table->string('color', 30);
             $table->integer('storage');
+            //desc
+            //popular
+            //status
             $table->integer('price');
             $table->integer('stock');
             $table->string('image', 100);
