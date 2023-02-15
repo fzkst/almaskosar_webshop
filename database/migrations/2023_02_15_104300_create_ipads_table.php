@@ -13,11 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('iphones', function (Blueprint $table) {
+        Schema::create('ipads', function (Blueprint $table) {
             $table->id();
             $table->string('model', 50);
             $table->string('color', 30);
             $table->integer('storage');
+            $table->tinyInteger('cellular');
             $table->longText('description')->nullable();
             $table->tinyInteger('popular')->default(0);
             $table->tinyInteger('status')->default(1);
@@ -37,6 +38,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('iphones');
+        Schema::dropIfExists('ipads');
     }
 };

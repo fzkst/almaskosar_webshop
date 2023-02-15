@@ -5,15 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Iphone extends Model
+class Ipad extends Model
 {
     use HasFactory;
 
     protected $visible = [
-        'id',
         'model',
         'color',
         'storage',
+        'cellular',
         'description',
         'popular',
         'status',
@@ -26,6 +26,7 @@ class Iphone extends Model
         'model',
         'color',
         'storage',
+        'cellular',
         'description',
         'popular',
         'status',
@@ -34,4 +35,5 @@ class Iphone extends Model
         'image'
     ];
 }
+
 
