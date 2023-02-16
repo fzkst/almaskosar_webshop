@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at');
             $table->string('password');
-            $table->tinyInteger('isAdmin')->default('0');
+            $table->tinyInteger('admin')->default('0');
             $table->rememberToken();
             $table->timestamps();
             $table->charset = 'utf8mb4';
