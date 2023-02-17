@@ -15,12 +15,13 @@
 
 <body>
     @include('layouts.inc.navbars')
-    <main>
+    <main class="d-flex flex-column min-vh-100">
         <div>
             @yield('content')
         </div>
-        @include('layouts.inc.footer')
+
     </main>
+    @include('layouts.inc.footer')
 </div>
 </div>
 </div>

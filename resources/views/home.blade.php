@@ -17,6 +17,7 @@
                     {{ __('You are logged in!') }}
                 </div>
             </div>
+            Ide jön a webshop azon része, ahol be van jelentkezve a vásárló...
         </div>
     </div>
 </div>

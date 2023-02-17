@@ -58,7 +58,7 @@ li a:hover {
     color: gray;
 }
 
-.sidenav {
+.sidenav, .footer {
     background-color: #1F1B24;
 }
 
@@ -115,23 +115,20 @@ input[type="text"], input[type="number"], input[type="checkbox"], textarea {
     background-color: #cacacb;
 }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+.dropend {
+    color: #BB86FC;
+}
 
-/* Small devices (tablets, 768px and up) */
-/*@media (min-width: @screen-sm-min) { ... }
+.dropend:hover {
+    color: gray;
+}
 
-/* Medium devices (desktops, 992px and up) */
-/*@media (min-width: @screen-md-min) { ... }
+.dropdown-button, .dropdown-menu {
+    background-color: #1F1B24;
+    border: none;
+    color: #BB86FC;
+}
 
-/* Large devices (large desktops, 1200px and up) */
-/* @media (min-width: @screen-lg-min) { ... }
-We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices.
-
-Copy
-@media (max-width: @screen-xs-max) { ... }
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
-@media (min-width: @screen-lg-min) { ... } */
-
-/*https://getbootstrap.com/docs/3.4/css/
+.dropdown-button:hover {
+    color: gray;
+}
