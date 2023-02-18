@@ -7,7 +7,7 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/sass/app.scss',
-                'resources/sass/home.scss',
+                'resources/sass/navbardashboard.scss',
                 'resources/js/app.js',
             ],
             refresh: true,
@@ -15,3 +15,5 @@ export default defineConfig({
         react(),
     ],
 });
+
+

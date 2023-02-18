@@ -14,7 +14,7 @@ import NepszeruTermekek from './layouts/NepszeruTermekek'
 const Home = () => {
   return (
     <div id='main'>
-      <Navbar/>
+  
       <Carousel/>
       <Cards/>
       <NepszeruTermekek/>
